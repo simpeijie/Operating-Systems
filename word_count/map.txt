@@ -1,0 +1,25 @@
+Addresses from running ./map that are defined in executable:
+main: 0x4005c2 (defined in .text)
+recur: 0x40057d (defined in .text)
+Important sections: 
+	.bss: holds uninitialized data that contribute to the program's memory image
+	.comment: holds version control information
+	.data: holds initialized data that contribue to the program's memory image
+	.dynamic: holds dynamic linking information
+	.dynstr: holds strings needed for dynamic linking
+	.dynsym: holds dynamic linking symbol table
+	.fini: holds executable instructions that contribute to the process termination code
+	.fini_array: holds an array of function pointers that contributes to a single termination array for the executable or shared object containing the section
+	.init: holds executable instructions that contribute to the process initialization code
+	.init_array: holds an array of function pointers that contribute to a single initialization array for the executable or shared object containing the section
+	.interp: holds the path name of a program interpreter
+	.rodata: holds read-only data that typically contribute to a non-writable segment in the process image
+	.text: holds the 'text', or executable instructions, of a program	
+	.eh_frame: contains information necessary for frame unwinding during exception handling
+	.gnu.version: contains the Symbol Version Table
+	.gnu.version_r: contains the Version Requirements
+	.note.ABI-tag: specify ABI details
+Direction stack is growing in: Towards lower memory address
+Size of stack frame for each recursive call: 30 (hex)
+Direction heap is growing in: Towards higher memory address
+Are the memory areas allocated contiguous: Yes

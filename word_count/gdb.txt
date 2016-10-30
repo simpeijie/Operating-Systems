@@ -1,0 +1,8 @@
+Value of argv: (char **) 0x7fffffffe638
+Value pointed to by argv: 0x7fffffffe855 "/home/vagrant/code/personal/hw0/wc"
+Address of main: 0x000000000040095f
+Info stack: shows the function currently in, and where it was called from (in tthis case, main).
+Info frame: displays information about the current stack frame.
+Info registers: rsp is the stack pointer of the current frame.
+		rip is the instruction pointer/program counter.
+

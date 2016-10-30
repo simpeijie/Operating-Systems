@@ -1,0 +1,6 @@
+File format: elf64-x86-64
+Architecture: i386:x86-64
+Sections: .init, .plt, .text, .fini
+Section containing main: 4008e5 - 40099f
+Address of main: 000000000040095f
+Stack/Heap:  Since the spaces for stack and heap are dynamically allocated, there are no segments present in the executable. The segments are created at process or during thread creation.  
