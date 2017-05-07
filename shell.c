@@ -271,7 +271,7 @@ void free_memory(char ***pointer, size_t s) {
 }
 */
 int get_file_des(char* file, int to_file) {
-	int fd;
+	int fd = 0;
 	if (to_file == 1) {
 		if ((fd = open(file, O_CREAT|O_WRONLY, S_IRUSR|S_IWUSR)) < 0) {
 			perror("open() error");
