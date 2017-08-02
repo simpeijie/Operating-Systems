@@ -1,4 +1,4 @@
-# CS162-Operating-Systems
+# Operating-Systems
 
 Contains files of homework assignments and projects from the operating systems course at UC Berkeley.
 
